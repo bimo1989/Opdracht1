@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<FlowPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="Opdracht1.RegisterController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <Group >
+        <Label text="Naam :" layoutX="0" layoutY="20"/><TextField layoutX="60" layoutY="20" promptText="Gebuikersnaam" fx:id="txtGebruikersnaam"/>
+        <Label text="Email :" layoutX="0" layoutY="60" /> <TextField layoutX="60" layoutY="60" promptText="Email" fx:id="txtEmail"/>
+        <Label text="Paswoord :" layoutX="0" layoutY="100"/> <PasswordField  layoutX="60" layoutY="100" promptText="Wachtwoord" fx:id="txtWachtwoord"/>
+        <Button text="Registreer" layoutX="60" layoutY="140" onAction="#btnregistreer"/>
+    </Group>
+
+</FlowPane>
